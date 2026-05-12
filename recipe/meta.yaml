@@ -1,5 +1,5 @@
 {% set name = "nrtk-albumentations" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nrtk_albumentations-{{ version }}.tar.gz
-  sha256: 37fa0c5b5b653b0ec2ea0d37cb15744e1b4fc345b602829dbdc5906339352522
+  sha256: 876d23f14b94d94118a0bc1b82a45f5b5971e4e65dbced2c30a9f3997bb02609
 
 build:
   noarch: python
@@ -43,7 +43,8 @@ test:
 
 about:
   home: https://nrtk.readthedocs.io/
-  summary: Fork of Albumentations in direct support of NRTK (Natural Robustness Toolkit). Fast, flexible, and advanced augmentation library for deep learning, computer vision, and medical imaging. Offers a wide range of transformations for both 2D (images, masks, bboxes, keypoints) and 3D (volumes, volumetric masks, keypoints) data, with optimized performance and seamless integration into ML workflows.
+  summary: Fork of Albumentations in direct support of NRTK (Natural Robustness Toolkit). Fast, flexible, and advanced augmentation library for deep learning, computer vision, and medical imaging. Offers a wide range of transformations for both 2D (images, masks, bboxes, keypoints) and 3D (volumes, volumetric masks, 
+    keypoints) data, with optimized performance and seamless integration into ML workflows.
   license: MIT
   license_file: LICENSE
 
