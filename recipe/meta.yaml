@@ -1,5 +1,5 @@
 {% set name = "nrtk-albumentations" %}
-{% set version = "2.2.2" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nrtk_albumentations-{{ version }}.tar.gz
-  sha256: 876d23f14b94d94118a0bc1b82a45f5b5971e4e65dbced2c30a9f3997bb02609
+  sha256: 913eac597f84b9a9c30acb267de956b64a17f10a613b53bb6d6fe94bfa6c5ae3
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.26
+    - numpy >=2.0
     - scipy >=1.14.1
     - numkong >=7
     - stringzilla >=3.10.4
