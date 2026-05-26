@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.26
+    - numpy >=2.0
     - scipy >=1.14.1
     - numkong >=7
     - stringzilla >=3.10.4
